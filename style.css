@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=DotGothic16&family=Pixelify+Sans&display=swap');
+
+:root{
+    font-family: 'dotgothic16';
+    --primary-color: #2e2e2e;
+    --secondary-color: #1b1b1b;
+    --third-color: #080808;
+    --fourth-color: #AB9CB8;
+    --bg-first: #551a8b;
+    --bg-second: #aa8cc5;
+    --bg-third: #7547a2;
+    --bg-orgn1: #e96c28;
+    --bg-orgn2: #ea9828;
+    --bg-orgn3: #fcba21;
+}
+
+body {
+    background-color: var(--bg-second);
+    color: var(--bg-second);
+    padding: 0;
+    margin: 0;
+}
+
+/* this is the section where the cat is*/
+
+main {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.section1 {
+    position: flex;
+    text-align: center;
+    color: var(--bg-second);
+    background-color: var(--primary-color);
+    min-height: 100vh;
+}
+
+.section3 {
+    position: relative;
+    background-color: var(--bg-orgn1);
+    min-height: 100vh;
+}
+
+#eyes, #eyes img {
+    position: absolute;
+}
+
+.eyes {
+    position: absolute;
+    top: 274px;
+    right: 210px;
+}
+
+.eye img {
+    position: absolute;
+}
